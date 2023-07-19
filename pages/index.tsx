@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Чат о `Теорие самоподобия`, по книге `Вот как всё устроено`. Калабухов А.С
+            Чат-бот компании interion
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'В чем основная идея книги?'
+                        : 'какие у вас основные преимущества?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
